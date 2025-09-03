@@ -1,5 +1,5 @@
 // 文件路径: api/index.go
-package handler
+package hello
 
 import (
 	"fmt"
