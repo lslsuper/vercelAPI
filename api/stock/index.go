@@ -24,7 +24,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	// 3. 构建我们要请求的外部 API 的 URL
 	// 使用 fmt.Sprintf 来安全地拼接字符串
 	// 注意：为了安全和演示，token 我们暂时硬编码为 "demo"
-	externalAPIURL := fmt.Sprintf("https://www.tsanghi.com/api/fin/stock/XSHG/daily?token=demo&ticker=%s", ticker)
+	externalAPIURL := fmt.Sprintf("https://www.tsanghi.com/api/fin/stock/XSHG/daily?token=996df0c0fea34fb691950b49e6a49c54&ticker=%s", ticker)
 
 	// 4. 发起 HTTP GET 请求到外部 API
 	resp, err := http.Get(externalAPIURL)
